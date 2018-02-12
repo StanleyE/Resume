@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+a:visited {
+    color:tan;
+}
+
+a:hover {
+    color:lightblue;
+}
+
+header{
+    border: 1px black solid;
+    height: 650px;
+    background-image: url(images/thought-cat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: minmax(100px, auto);
+}
+
+.deskHeader{
+    background-color: whitesmoke;
+    border: 4px black solid;
+    padding: 20px;
+    margin: 15px;
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+h2 {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.educ {
+    margin-bottom:20px;
+    margin-top:15px;
+    background-color: whitesmoke;
+    padding:10px;
+}
+
+.allAttempts {
+    display: inline-grid;
+    grid-column-gap:5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(200px, auto);
+}
+
+.blog {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.gal {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: whitesmoke;
+    padding:10px;
+}
+
+.land {
+    grid-row: 2;
+    grid-column: 3;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+ .attempt img{
+     height: 350px;
+     width: 500px;
+ }
+
+.work {
+    text-align: center;
+    background-color: whitesmoke;
+    padding:10px;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+hr {
+    width: 200px;
+}
+
+
+footer {
+     background-color: black;
+     height: 150px;
+     color:white;
+     text-align: center;
+     padding: 25px;
+ }
+
+.icon {
+   display:inline;
+   margin: 45px;
+}
+
+.icon a:link {
+    color:white;
+}
+
+.icon a:hover {
+    color:lightblue;
+}
+
